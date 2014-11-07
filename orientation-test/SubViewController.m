@@ -19,6 +19,8 @@
     
     
     self.shouldSupportLandscapeRotation = NO;
+    
+    [self.textLabel setTitle:@"Dismiss Modal" forState:UIControlStateNormal];
 }
 
 - (void)didReceiveMemoryWarning {
